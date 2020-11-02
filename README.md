@@ -6,8 +6,16 @@ https://core.telegram.org/bots#6-botfather
 
 Example Bot URL 
 ```sh 
-https://api.telegram.org/bot{your id}:{token}/sendMessage?chat_id={receiver}&text={message} 
+https://api.telegram.org/bot{token}/sendMessage?chat_id={receiver}&text={message} 
+
+https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/getMe
 ```
+Token = {your id}:{auth code}
+
+Sample Methods
+- sendMessage
+- getMe
+- ..etc
 
 Receiver ID can be a username or actual ID 
 - @username  or 1234567
